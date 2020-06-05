@@ -73,4 +73,4 @@ var c = !!a;
 console.log("A = "+a)
 console.log("B = "+b)
 console.log("C = "+c)
-//alert("73 Compeled ---NOT Operator---");
+alert("73 Compeled ---NOT Operator---");
