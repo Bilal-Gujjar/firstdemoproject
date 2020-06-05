@@ -53,10 +53,10 @@ var c = a < b && b < 10 && b == 4 ;
 console.log(c)
 
 var a = 5;
-var b = 6;
+var b = 6;P
 var c = a < 10 || a > 20
 console.log(c)
-*/
+NOT Operator
 var a = 50;
 var b = a < 100;
 var c = !b;
@@ -66,4 +66,11 @@ console.log("B = "+b);
 console.log("C = "+c);
 console.log("D = "+d);
 
-alert("70 Compeled ---NOT Operator---");
+*/
+var a = -5;
+var b = !a;
+var c = !!a;
+console.log("A = "+a)
+console.log("B = "+b)
+console.log("C = "+c)
+//alert("73 Compeled ---NOT Operator---");
