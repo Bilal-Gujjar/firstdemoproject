@@ -42,4 +42,28 @@ console.log(a!=b);
 console.log(a>b);
 console.log(a<b);
 console.log(a>=b);
-console.log(a<=b);*/
+console.log(a<=b);
+
+and operater
+
+var a = 5;
+var b = 6;
+ 
+var c = a < b && b < 10 && b == 4 ;
+console.log(c)
+
+var a = 5;
+var b = 6;
+var c = a < 10 || a > 20
+console.log(c)
+*/
+var a = 50;
+var b = a < 100;
+var c = !b;
+var d = !(a < 100);
+console.log("A = "+a);
+console.log("B = "+b);
+console.log("C = "+c);
+console.log("D = "+d);
+
+alert("70 Compeled ---NOT Operator---");
