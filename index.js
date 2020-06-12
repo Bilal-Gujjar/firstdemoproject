@@ -66,11 +66,31 @@ console.log("B = "+b);
 console.log("C = "+c);
 console.log("D = "+d);
 
-*/
+
 var a = -5;
 var b = !a;
 var c = !!a;
 console.log("A = "+a)
 console.log("B = "+b)
-console.log("C = "+c)
-alert("73 Compeled ---NOT Operator---");
+console.log("C = "+c)*/
+
+
+
+
+
+var age = 50;
+if (age > 60) {
+    console.log("In if Age"+age);
+} 
+else {
+    console.log("In else"+age + "Hellow")
+    
+}
+
+ 
+
+
+
+
+
+alert("76 Compeled ---NOT Operator---");
