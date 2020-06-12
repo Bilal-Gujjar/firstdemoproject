@@ -122,8 +122,16 @@ if (score > 80) {
 }
 else{
     console.log("Failed!!");
-}*/
+}
 
+var alphabet = prompt("Enter the Alphabet and Check the vowel");
+if (alphabet == "A" || alphabet == "E" || alphabet == "I" || alphabet == "O" || alphabet == "U")
+    {console.log("it is the Vowel");
+ 
+} else {
+    console.log("It is a consonats");
+}
+*/
 
 
 
@@ -135,4 +143,4 @@ else{
 
 
 
-//alert("76 Compeled ---NOT Operator---");
+alert("82 Compeled ----   81  Opitional          ");
