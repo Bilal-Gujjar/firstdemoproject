@@ -72,20 +72,62 @@ var b = !a;
 var c = !!a;
 console.log("A = "+a)
 console.log("B = "+b)
-console.log("C = "+c)*/
-
-
-
-
-
+console.log("C = "+c)
+************If-else********
 var age = 50;
-if (age > 60) {
-    console.log("In if Age"+age);
-} 
+if (age < 60){ 
+    console.log("In if Age "+age);
+    console.log("Hellow World")
+}
+else{
+    console.log("In else Age "+age); 
+}
+************else-if***************
+var score = prompt("What is your score");
+score=parseInt(score)
+if (score > 80) {
+    console.log("Grade A")
+}
+else if(score > 70){
+    console.log("Grade B")
+}
+else if(score > 60){
+    console.log("Grade C")
+}
+else if(score >= 50){
+    console.log("Grade D")
+}
+else if(score >= 40){
+    console.log("Grade E")
+}
 else {
-    console.log("In else"+age + "Hellow")
+    console.log("Failed!")
     
 }
+************Nested-If***********
+
+var score = prompt("What is your scrore")
+score = parseInt(score)
+if (score > 80) {
+    console.log("Passed Grade A");
+    if (score >= 90) {
+         console.log("Reward 100 $");
+    }
+    else if (score >= 85) {
+        console.log("Reward 50$");
+    }
+    else {
+        console.log("Reward 20$");
+    }
+}
+else{
+    console.log("Failed!!");
+}*/
+
+
+
+
+
 
  
 
@@ -93,4 +135,4 @@ else {
 
 
 
-alert("76 Compeled ---NOT Operator---");
+//alert("76 Compeled ---NOT Operator---");
