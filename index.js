@@ -131,7 +131,16 @@ if (alphabet == "A" || alphabet == "E" || alphabet == "I" || alphabet == "O" || 
 } else {
     console.log("It is a consonats");
 }
-*/
+**************For Loop******
+var num = prompt("Enter the Number");
+num = parseInt(num)
+for (var i=1;i<10;i++ ){
+    console.log(num + "x"+i+"="+(num * i));
+}
+***************** Break and *************/
+
+
+
 
 
 
@@ -143,4 +152,4 @@ if (alphabet == "A" || alphabet == "E" || alphabet == "I" || alphabet == "O" || 
 
 
 
-alert("82 Compeled ----   81  Opitional          ");
+//alert("90 Compeled ----   81  Opitional          ");
