@@ -6,19 +6,30 @@
     <title>Singin/login Form</title>
 </head>
 <body>
-    <form action="http//:www.example.com/login.php">
+    <form action="http://www.example.com/login.php" method="GET">
       <p>
-          <input type="radio" name="Gender" checked> Male
+          <input type="radio" name="Gender"> Male
           <input type="radio" name="Gender">Female
       </p>
       <p>
           Interest:
-          <input type="checkbox" name="Interest" id="Hello world">
+          <input type="checkbox" name="Interest" id="men"  />Men's Clothing
+          <input type="checkbox" name="Interest" id="mwn"/>Women clothing
+          <input type="checkbox" name="Interest" id="acc"/>Acceriories
+          <input type="checkbox" name="Interest" id="elc">Electonic
 
 
       </p>
       
-      
+      <p>
+          Nationality
+          <select name="Countries" >
+           <option value="pakistan">Pakistan</option>
+           <option value="USa">USA</option>
+           <option value="China">China</option>
+           <option value="CAnda">Canda</option>
+          </select>
+      </p>
         <p>First Name
         <input type="text" name="firstname" size="6" maxlength="3">
         
@@ -34,6 +45,15 @@
         <p>
             <textarea name="Comment" id="Sd78LO" cols="30" rows="10"> Enter your comment here.......</textarea>
         </p>
+        <p>
+            UPload a picture 
+        </p>
+        <input type="file" name="Update profile" >
+        <br>
+        <br>
+        <input type="submit" value="Upload">
+    <input type="Submit">
+        
     </form>
     
 </body>
