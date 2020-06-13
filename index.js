@@ -124,7 +124,7 @@ else{
     console.log("Failed!!");
 }
 
-var alphabet = prompt("Enter the Alphabet and Check the vowel");
+var alphabet = prompt("Enter the Alphabet and Check the vowel")
 if (alphabet == "A" || alphabet == "E" || alphabet == "I" || alphabet == "O" || alphabet == "U")
     {console.log("it is the Vowel");
  
@@ -137,7 +137,76 @@ num = parseInt(num)
 for (var i=1;i<10;i++ ){
     console.log(num + "x"+i+"="+(num * i));
 }
-***************** Break and *************/
+***************** Break and continous *************
+console.log("Before");
+
+for (var i=0;i<5;i++){
+    if (i == 3) {
+        continue;
+    }
+    console.log("I = "+i);
+}
+console.log("After");
+***************Task --- Prime Number**********
+
+var num = parseInt(prompt("enterr"));
+var isprime = true;
+for(var i=2;i<num;i++){
+    var result = num%i;
+    if(result==0){
+        console.log("Number is not prime = "+num +" I " +i);
+        isprime = false;
+        break;
+    }/*
+    else{
+        console.log("Number is prime "+num + "I = "+i);
+        
+    }*/
+
+/*   
+if(isprime==true){
+    console.log("Number is prime  " +num);    
+
+}
+*
+var food = ["Pizza","Burger","Sandwich"];
+var food2 = new Array("Pizza","Burger","Sanwich");
+
+var a = food[0];
+var b = food[1];
+alert(a);
+alert(b);
+alert(food[2]);
+***********Arry********
+
+var arr1 =[23,45,56,78,12,45];
+var arr2 = [true.false,true,false,true];
+
+var arr3 = [23,"Hello world",true];
+var arr4 = [{name:"ALi"},{name:"khan"}];
+console.log(arr1[3]);
+console.log(arr3[2]);
+*
+
+var food = ["Pizza","Burger","Snacks"];
+//alert(food);
+console.log(food);
+console.log(food[4]);
+**********Add value in Arry***********/ 
+var food = [];
+console.log(food);
+
+food[0]= "pizza";
+food[1]="Burger";
+food[2]="snakes";
+/*console.log(food);
+console.log(food[2]);
+console.log(food[223]);
+food[8]="Sandwitch";
+console.log(food);*/
+food[1]="bbr"
+console.log(food[1]);
+console.log(food[8]);
 
 
 
@@ -146,10 +215,15 @@ for (var i=1;i<10;i++ ){
 
 
 
- 
 
 
 
 
 
-//alert("90 Compeled ----   81  Opitional          ");
+
+
+
+
+
+
+alert("100 Compeled ----   81  Opitional          ");
