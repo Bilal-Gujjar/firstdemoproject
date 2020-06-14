@@ -192,9 +192,9 @@ var food = ["Pizza","Burger","Snacks"];
 //alert(food);
 console.log(food);
 console.log(food[4]);
-**********Add value in Arry***********/ 
+**********Add value in Arry***********
 var food = [];
-console.log(food);
+  console.log(food);
 
 food[0]= "pizza";
 food[1]="Burger";
@@ -203,10 +203,61 @@ food[2]="snakes";
 console.log(food[2]);
 console.log(food[223]);
 food[8]="Sandwitch";
-console.log(food);*/
+console.log(food);
 food[1]="bbr"
 console.log(food[1]);
 console.log(food[8]);
+*
+*********Arry.push*******
+var food = [];
+food.push(prompt("Enter 1st Item"))
+food.push(prompt("Enter 2st Item"))
+food.push(prompt("Enter 3st Item"))
+food.push(prompt("Enter 4st Item"))
+console.log(food);
+console.log(food[2]);*
+console.log("Before");
+
+for (var i= 0; i<3;i++){
+    for(var j=0;j<2;j++){
+    console.log("I = "+i+" J = "+j);
+    }
+    
+}
+console.log("After");
+*************Stack************
+var food = []
+food.push("Pizza");
+food.push("NAN");
+food.push("Chicken");
+console.log(food);
+console.log("Lenght = "+food.length);
+var a1 = food.pop()
+var a2 = food.pop()
+console.log(food);
+console.log("Length = "+food.length);
+console.log(a1);
+console.log(a2);
+food.push("Burgr");
+console.log(food);
+console.log("Length = "+food.length);
+*******************Queue****************
+var food = [];
+food.push("Pizza");
+food.push("Burger");
+food.push("Sbacks");
+console.log(food);
+console.log("Length = " +food.length);
+var a = food.shift();
+console.log(food);
+console.log("Length = " +food.length);
+**************UNshift**********
+var food = ["Piazza","BArger","Snacks"];
+console.log(food);
+food.unshift("Sandwich");
+console.log(food);
+console.log(food[0]);
+****************Arry with loops**********/
 
 
 
@@ -226,4 +277,21 @@ console.log(food[8]);
 
 
 
-alert("100 Compeled ----   81  Opitional          ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//alert("105 Compeled ----   81  Opitional          ");
