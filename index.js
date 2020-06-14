@@ -257,7 +257,39 @@ console.log(food);
 food.unshift("Sandwich");
 console.log(food);
 console.log(food[0]);
-****************Arry with loops**********/
+****************Arry with loops**********
+
+var food = ["Pizza","Burger","Snacks",1,78,54,5,6];
+
+for(var i=0; i < food.length; i++){
+    console.log(food[i]);
+    
+}*/
+var arr = [34,23,56,87,1,45,88];
+
+var input = parseInt(prompt("Enter the number"));
+console.log("User Input ",input);
+
+for(var i=0;i<arr.length;i++){
+    //console.log(arr[i]);
+    if(arr[i] === input){
+        console.log("Found "+input+" on the Index = "+i);}
+    else{
+        console.log("Not found");
+        
+    }    
+ 
+         
+}
+
+
+
+
+
+
+
+
+
 
 
 
