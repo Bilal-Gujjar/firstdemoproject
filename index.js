@@ -264,7 +264,7 @@ var food = ["Pizza","Burger","Snacks",1,78,54,5,6];
 for(var i=0; i < food.length; i++){
     console.log(food[i]);
     
-}*/
+}
 var arr = [34,23,56,87,1,45,88];
 
 var input = parseInt(prompt("Enter the number"));
@@ -281,6 +281,84 @@ for(var i=0;i<arr.length;i++){
  
          
 }
+************Splice function***********
+var food = ["Pizza","Burger","Snacks","Fries"];
+console.log(food);
+var arr = food.splice(1,2,"Sandwich");
+console.log(food);
+console.log(arr);
+
+*******************String/leanght******
+var a = "hello World";
+alert(a.length);
+********Escape Chratarter***************
+var a = "Hello World"
+var b = "Hello \"World"
+var c = "Hello\nWorld"
+var d = "Hello \'World'"
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+*************Lower and UPper case **************
+var food = "Pizza";
+var input ="pizza"
+if (food.toLowerCase()=== input.toLowerCase() ){
+    console.log("Match");
+    
+}
+else{
+    console.log("Not Match");
+    
+}
+***********String Sclice**************
+var a ="Hello World"
+var b = a.slice(-5,-2);
+console.log(b);
+
+****************indexOF************
+var a = "To be or not to be";
+console.log("length = "+a.length);
+
+var b = a.indexOf("not")
+console.log(b);
+
+var a = "To be or not to be";
+var b = a.lastIndexOf("or",5)
+console.log(b);
+*************Random Function***********
+var a = Math.random()
+console.log("A = "+a);
+
+var num1 = a * 6 ;
+console.log("Num1 = "+num1);
+
+
+var num2 = num1 +1 ;
+console.log("Num2 = "+num2);
+
+var num3 = Math.floor(num2);
+console.log("Num3 = "+num3);
+******toFixed Function***********
+var a = (12+22+39)/3
+console.log(a.toFixed(3));
+*******Data Object**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
@@ -324,6 +402,4 @@ for(var i=0;i<arr.length;i++){
 
 
 
-
-
-//alert("105 Compeled ----   81  Opitional          ");
+//alert("117 Compeled ----   81  Opitional          ");
