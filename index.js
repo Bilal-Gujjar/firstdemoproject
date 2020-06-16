@@ -343,6 +343,17 @@ console.log("Num3 = "+num3);
 var a = (12+22+39)/3
 console.log(a.toFixed(3));
 *******Data Object**********/
+var d = new Date();
+console.log(d);
+console.log(d.getDay());
+console.log(d.getMonth());
+console.log(d.getUTCFullYear());
+d.setFullYear(2021);
+console.log(d);
+d.setHours(15);
+console.log(d);
+
+
 
 
 
@@ -402,4 +413,4 @@ console.log(a.toFixed(3));
 
 
 
-//alert("117 Compeled ----   81  Opitional          ");
+alert("139 Compeled ----   81  Opitional          ");
