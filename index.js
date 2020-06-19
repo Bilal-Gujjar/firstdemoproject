@@ -390,7 +390,9 @@ function findGrade(score) {
 findGrade(12);
 findGrade(90);        
 findGrade(81);
-*/
+
+
+
  function calcuteScore(sub1,sub2,sub3) {
      return (sub1+sub2+sub3) / 3 ; 
      
@@ -418,7 +420,7 @@ console.log("Score "+score1);
 console.log("Score "+score2);
 findGrade(score1)
 findGrade(score2)
-
+*/
 
 
   
