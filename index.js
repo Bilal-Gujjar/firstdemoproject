@@ -342,7 +342,7 @@ console.log("Num3 = "+num3);
 ******toFixed Function***********
 var a = (12+22+39)/3
 console.log(a.toFixed(3));
-*******Data Object**********/
+*******Data Object**********
 var d = new Date();
 console.log(d);
 console.log(d.getDay());
@@ -352,20 +352,72 @@ d.setFullYear(2021);
 console.log(d);
 d.setHours(15);
 console.log(d);
+***************Function************
+console.log("Before F");
 
+function showMassage() {
+    console.log("Hello World");
+    
+}
+console.log("After F");
 
+showMassage();
+console.log("After function call");
 
+*
+function sun(a,b) {
+    console.log(a+b);
+    
+    
+}
+sun(4,5);
+sun(6,1);
+sun(14);
 
+function findGrade(score) {
+    if (score> 80 && score <=100) {
+        console.log("Grade B");
+    } else if (score>70 && score <=80) {
+        console.log("Grade B");}
 
+      else if (score>60 && score <=70) {
+          console.log("Grade C");
+      }     
+      else{
+          console.log("Grade F");   
+      }     
+}
+findGrade(12);
+findGrade(90);        
+findGrade(81);
+*/
+ function calcuteScore(sub1,sub2,sub3) {
+     return (sub1+sub2+sub3) / 3 ; 
+     
+ }
+function findGrade(score) {
+    if (score> 80 && score <=100) {
+        console.log("Grade A");
+    } else if (score>70 && score <=80) {
+        console.log("Grade B");}
 
+      else if (score>60 && score <=70) {
+          console.log("Grade C");
+      }     
+      else{
+          console.log("Grade F");   
+      }     
+}
+findGrade(12);
+findGrade(90);        
+findGrade(81);
 
-
-
-
-
-
-
-
+var score1 = calcuteScore(45,67,89);
+var score2 = calcuteScore(87,95,72);
+console.log("Score "+score1);
+console.log("Score "+score2);
+findGrade(score1)
+findGrade(score2)
 
 
 
@@ -413,4 +465,4 @@ console.log(d);
 
 
 
-alert("139 Compeled ----   81  Opitional          ");
+//alert("139 Compeled ----   81  Opitional          ");
